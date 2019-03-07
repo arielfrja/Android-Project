@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActCountry" />
+
+    <TextView
+        android:text="Activity type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActDescription" />
+
+    <TextView
+        android:text="cost:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActCost" />
+
+    <TextView
+        android:text="starting date: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActStartDate"
+        android:paddingEnd="2dp"
+        android:paddingStart="2dp"
+        />
+
+    <TextView
+        android:text="end date: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActEndDate"
+        />
+
+</LinearLayout>

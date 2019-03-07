@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Call to this agency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Call"
+        android:textSize="10sp" />
+
+    <Button
+        android:text="Send an email to this agency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Email"
+        android:textSize="10sp" />
+
+    <Button
+        android:text="visit this agency's website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Website"
+        android:textSize="10sp" />
+
+    <Button
+        android:text="show in map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Map"
+        android:textSize="10sp" />
+</LinearLayout>

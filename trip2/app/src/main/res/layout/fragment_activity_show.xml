@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.arielfaridja.trip.controller.ActivityShowFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActCountry"
+        android:textSize="36sp"
+        />
+
+    <TextView
+        android:text="Activity type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActDescription"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="cost:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActCost"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="starting date: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActStartDate"
+        android:paddingEnd="2dp"
+        android:paddingStart="2dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="end date: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActEndDate"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LongActDes" />
+
+
+    </FrameLayout>
+    <Button
+        android:text="operating agency page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AgencyPage" />
+</LinearLayout>
+</FrameLayout>
